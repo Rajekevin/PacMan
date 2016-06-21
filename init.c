@@ -34,15 +34,15 @@ void init(char mappage[20][38], coordonees* PacMan, coordonees* ghostA, coordone
     ghostA->i = 13;
     ghostA->j = 15;
     
-    mappage[13][17] = 'M';
+    mappage[13][17] = 'F';
     ghostB->i = 13;
     ghostB->j = 17;
     
-    mappage[13][19] = 'M';
+    mappage[13][19] = 'F';
     ghostC->i = 13;
     ghostC->j = 19;
     
-    mappage[13][21] = 'M';
+    mappage[13][21] = 'F';
     ghostD->i = 13;
     ghostD->j = 21;
     

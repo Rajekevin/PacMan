@@ -10,6 +10,7 @@
 
 #include "structures.h"
 #include "init.h"
+#include "affich.h"
 
 int main(int argc, const char * argv[]) {
     char mappage[20][38];
@@ -21,5 +22,6 @@ int main(int argc, const char * argv[]) {
     coordonees ghostD;
     
     init(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD);
+    affich(mappage);
     return 0;
 }
