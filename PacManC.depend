@@ -1,6 +1,15 @@
 # depslib dependency file v1.0
-1466863209 source:c:\users\rajek\documents\c program\pacmanc\main.c
+1466879224 source:c:\users\rajek\documents\c program\pacmanc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
+	<myconio.h>
+	"menu.h"
+
+1466879155 source:c:\users\rajek\documents\c program\pacmanc\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1466876472 c:\users\rajek\documents\c program\pacmanc\menu.h
 
