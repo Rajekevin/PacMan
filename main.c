@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+#include <time.h>
+#include <conio.h> //librairie
 #include <myconio.h>
+
 #include "menu.h"
 
 int main()
 {
 
-char saisie;
-system("CLS");
-int mode;
+
 
 
 printf("   ▄███████▄    ▄████████  ▄████████   ▄▄▄▄███▄▄▄▄      ▄████████ ███▄▄▄▄  \n");
@@ -22,23 +22,27 @@ printf("  ███          ███    ███ ███    ███ █�
 printf(" ▄████▀        ███    █▀  ████████▀   ▀█   ███   █▀    ███    █▀   ▀█   █▀ \n ");
 
 
+char saisie;
+system("CLS");
+int mode;
 
 
 
+printf("cc");
 
-
-
-
-     do
+  do
     {
         menu(&mode);
+
+
         switch(mode)
         {
-        case 1 :
+        case 1:
             printf("test\n\n");
             break;
 
         case 2:
+
             printf("test\n\n");
             break;
 
@@ -46,17 +50,11 @@ printf(" ▄████▀        ███    █▀  ████████
             break;
 
         }
-    }while(mode>0 && mode<3);
+    }while(mode>0 && mode<4);
 
 
-    do
-    {
-        saisie = getch();
 
-    }while((saisie>'3') || (saisie<'1'));
-
-   *entree = saisie - 48;
-
+return 0;
 
 }
 
