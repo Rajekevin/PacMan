@@ -1,3 +1,11 @@
+//
+//  main.c
+//  pacmanc
+//
+//  Created by Rajekevin on 20/06/2016.
+//  Copyright © 2016 Elyes. All rights reserved.
+//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -6,7 +14,7 @@
 
 #include "menu.h"
 
-int main()
+int main(int argc, const char * argv[])
 {
 
 
