@@ -13,6 +13,9 @@
 #include <myconio.h>
 
 #include "menu.h"
+#include "structures.h"
+#include "init.h"
+#include "affich.h"
 
 int main(int argc, const char * argv[])
 {
@@ -47,6 +50,19 @@ printf("cc");
         {
         case 1:
             printf("test\n\n");
+
+             char mappage[20][38];
+
+            coordonees PacMan;
+            coordonees ghostA;
+            coordonees ghostB;
+            coordonees ghostC;
+            coordonees ghostD;
+
+            init(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD);
+            affich(mappage);
+            return 0;
+
             break;
 
         case 2:

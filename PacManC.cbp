@@ -31,6 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="affich.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="affich.h" />
+		<Unit filename="init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -38,6 +46,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="menu.h" />
+		<Unit filename="structures.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
