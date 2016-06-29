@@ -34,31 +34,111 @@ printf("\t\t\t\t88 \n");
 
 
 
-textcolor(14);
 
+
+
+
+
+
+textcolor(9);
 printf("\t\t\t\t ================================================.\n");
-printf("\t\t\t\t     .-.   .-.     .--.                         |\n");
-printf("\t\t\t\t    | OO| | OO|   / _.-' .-.   .-.  .-.   .''.  |\n");
-printf("\t\t\t\t    |   | |   |   \  '-. '-'   '-'  '-'   '..'   |\n");
-printf("\t\t\t\t    '^^^' '^^^'    '--'                         |\n");
-printf("\t\t\t\t===============.  .-.  .================.  .-.  |\n");
-printf("\t\t\t\t               | |   | |                |  '-'  |\n");
-printf("\t\t\t\t               | |   | |                |       |\n");
-printf("\t\t\t\t               | ':-:' |                |  .-.  |\n");
-printf("\t\t\t\tPar Elyes      |  '-&' |   Rajekevin    |  '-'  |\n");
+ textcolor(13);
+printf("\t\t\t\t     .-.   .-.                                  ");
+ textcolor(15);
+printf("1.NOUVELLE PARTIE\n");
+  textcolor(13);
+printf("\t\t\t\t    | OO| | OO|                                 ");
+ textcolor(15);
+printf("2.MEILLEURS SCORES\n");
+  textcolor(13);
+printf("\t\t\t\t    |   | |   |                                 ");
+ textcolor(15);
+printf("3.CHARGER UNE PARTIE\n");
+ textcolor(13);
+printf("\t\t\t\t    '^^^' '^^^'                                 ");
+ textcolor(15);
+printf("4.QUITTER \n");
+textcolor(9);
+printf("\t\t\t\t ====================        =====================.\n");
+textcolor(14);
+printf("\t\t\t\t .--.  \n");
+printf("\t\t\t\t/ _.-' .-.   .-.  .-.  .-.   .-.  .-. .-.  .-.   \n");
+printf("\t\t\t\t\  '-.  '-'   '-'  '-'  '-'   '-'  '-' '-'  '-'   \n");
+printf("\t\t\t\t '--'  \n");
+
+
+
+
+
+
+
+
+textcolor(9);
+/*1 ligne done*/
+printf("\t\t\t\t===============.");
+ textcolor(13);
+printf("  .-.  ");
+textcolor(9);
+printf(".================.");
+textcolor(14);
+printf("  .-.  ");
+textcolor(9);
+printf("|\n");
+
+/*2 ligne done*/
+textcolor(9);
+printf("\t\t\t\t               |");
+ textcolor(13);
+printf(" |   | ");
+textcolor(9);
+printf("|                |");
+textcolor(14);
+printf("  '-'  ");
+textcolor(9);
+printf("|\n");
+
+
+/*3 ligne done*/
+printf("\t\t\t\t               |");
+ textcolor(13);
+printf(" |   | ");
+textcolor(9);
+printf("|                |");
+printf("       ");
+printf("|\n");
+
+
+/*4 ligne done*/
+printf("\t\t\t\t               |");
+ textcolor(13);
+printf(" ':-:' ");
+textcolor(9);
+printf("|                |");
+printf("  .-.  ");
+printf("|\n");
+
+/*AUTHOR*/
+ textcolor(15);
+printf("\t\t\t\tPar Elyes      ");
+textcolor(9);
+printf("|  '-");
+ textcolor(15);
+printf("&");
+textcolor(9);
+printf("' |");
+ textcolor(15);
+printf("   Rajekevin    ");
+textcolor(9);
+printf("|  '-'  |\n");
+
+
+
 printf("\t\t\t\t==============='       '================'       |\n");
 
 
 
-    textcolor(15);
-    printf("                                       Par Elyes EL BAHRI et Rajekevin DOUREPOULLE\n");
 
-    printf("\n\n\n");
-    textcolor(3);
-    printf("                          1.NOUVELLE PARTIE\n\n");
-    printf("                          2.MEILLEURS SCORES\n\n");
-    printf("                          3.CHARGER UNE PARTIEn\n\n");
-    printf("                          4.QUITTER\n\n");
+
 
     do
     {
