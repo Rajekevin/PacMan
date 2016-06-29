@@ -3,7 +3,7 @@
 //  pacmanc
 //
 //  Created by Rajekevin on 20/06/2016.
-//  Copyright © 2016 Elyes. All rights reserved.
+//  Copyright © 2016 RK. All rights reserved.
 //
 
 #include <stdio.h>
