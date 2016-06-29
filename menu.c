@@ -33,13 +33,6 @@ printf("\t\t\t\t88 \n");
 
 
 
-
-
-
-
-
-
-
 textcolor(9);
 printf("\t\t\t\t ================================================.\n");
  textcolor(13);
@@ -130,9 +123,6 @@ printf("' |");
 printf("   Rajekevin    ");
 textcolor(9);
 printf("|  '-'  |\n");
-
-
-
 printf("\t\t\t\t==============='       '================'       |\n");
 
 
