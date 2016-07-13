@@ -1,14 +1,16 @@
 # depslib dependency file v1.0
-1467200795 source:c:\users\rajek\documents\c program\pacmanc\main.c
+1468426809 source:c:\users\rajek\documents\c program\pacmanc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<conio.h>
 	<myconio.h>
+	<windows.h>
 	"menu.h"
 	"structures.h"
 	"init.h"
 	"affich.h"
+	"setwindow.h"
 
 1467199402 source:c:\users\rajek\documents\c program\pacmanc\menu.c
 	<stdio.h>
@@ -25,11 +27,30 @@
 	<stdio.h>
 	"structures.h"
 
-1467199777 c:\users\rajek\documents\c program\pacmanc\structures.h
+1468415709 c:\users\rajek\documents\c program\pacmanc\structures.h
 
-1467199839 source:c:\users\rajek\documents\c program\pacmanc\affich.c
+1468426205 source:c:\users\rajek\documents\c program\pacmanc\affich.c
+	<windows.h>
 	"affich.h"
+	"motifs.h"
+	"setwindow.h"
+	<conio.h>
 
 1467199862 c:\users\rajek\documents\c program\pacmanc\affich.h
 	<stdio.h>
+
+1468415730 c:\users\rajek\documents\c program\pacmanc\motifs.h
+
+1468419551 c:\users\rajek\documents\c program\pacmanc\setwindows.h
+
+1468421047 source:c:\users\rajek\documents\c program\pacmanc\setwindow.c
+	<windows.h>
+
+1468425764 source:c:\users\rajek\documents\c program\pacmanc\renduarene.c
+	"renduarene.h"
+	"motifs.h"
+
+1468425796 c:\users\rajek\documents\c program\pacmanc\renduarene.h
+
+1468421039 c:\users\rajek\documents\c program\pacmanc\setwindow.h
 

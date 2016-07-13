@@ -15,11 +15,11 @@
 
 #include "menu.h"
 #include "structures.h"
-#include "renduarene.h"
+
 #include "init.h"
 #include "affich.h"
 
-#include "setwindows.h"
+#include "setwindow.h"
 
 int main(int argc, const char * argv[])
 {
