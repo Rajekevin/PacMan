@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1468496426 source:c:\users\rajek\documents\c program\pacmanc\main.c
+1468507901 source:c:\users\rajek\documents\c program\pacmanc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -14,6 +14,8 @@
 	"ghost.h"
 	"move.h"
 	"rendumap.h"
+	"ReadScore.h"
+	"triScore.h"
 
 1467199402 source:c:\users\rajek\documents\c program\pacmanc\menu.c
 	<stdio.h>
@@ -32,14 +34,14 @@
 
 1468495155 c:\users\rajek\documents\c program\pacmanc\structures.h
 
-1468426205 source:c:\users\rajek\documents\c program\pacmanc\affich.c
+1468507751 source:c:\users\rajek\documents\c program\pacmanc\affich.c
 	<windows.h>
 	"affich.h"
 	"motifs.h"
 	"setwindow.h"
 	<conio.h>
 
-1467199862 c:\users\rajek\documents\c program\pacmanc\affich.h
+1468507797 c:\users\rajek\documents\c program\pacmanc\affich.h
 	<stdio.h>
 
 1468493234 c:\users\rajek\documents\c program\pacmanc\motifs.h
@@ -80,8 +82,7 @@
 1468495378 c:\users\rajek\documents\c program\pacmanc\ia.h
 	"structures.h"
 
-1468495658 source:c:\users\rajek\documents\c program\pacmanc\move.c
-	"move.h"
+1468507103 source:c:\users\rajek\documents\c program\pacmanc\move.c
 	<windows.h>
 	<stdio.h>
 	<conio.h>
@@ -89,7 +90,59 @@
 	"ia.h"
 	"affich.h"
 	"motifs.h"
+	"move.h"
+	"ghost.h"
+	"score.h"
 
 1468495390 c:\users\rajek\documents\c program\pacmanc\move.h
 	"structures.h"
+
+1468502726 source:c:\users\rajek\documents\c program\pacmanc\bestscore.c
+	"BestScore.h"
+	<stdio.h>
+	<conio.h>
+
+1468502766 c:\users\rajek\documents\c program\pacmanc\bestscore.h
+
+1468503014 source:c:\users\rajek\documents\c program\pacmanc\readscore.c
+	"ReadScore.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1468503080 c:\users\rajek\documents\c program\pacmanc\readscore.h
+
+1468503559 source:c:\users\rajek\documents\c program\pacmanc\cleanscore.c
+	"cleanScore.h"
+	<stdlib.h>
+	<stdio.h>
+
+1468503608 c:\users\rajek\documents\c program\pacmanc\cleanscore.h
+
+1468503634 source:c:\users\rajek\documents\c program\pacmanc\triscore.c
+	"triScore.h"
+	<string.h>
+	"BestScore.h"
+	"cleanScore.h"
+
+1468503420 c:\users\rajek\documents\c program\pacmanc\triscore.h
+
+1468506523 c:\users\rajek\documents\c program\pacmanc\score.h
+
+1468506603 source:c:\users\rajek\documents\c program\pacmanc\subscribescore.c
+	"subscribeScore.h"
+	<stdio.h>
+	<stdlib.h>
+
+1468506655 c:\users\rajek\documents\c program\pacmanc\subscribescore.h
+
+1468508057 source:c:\users\rajek\documents\c program\pacmanc\score.c
+	"score.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"subscribeScore.h"
+	"triScore.h"
+	"ReadScore.h"
 

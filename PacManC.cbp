@@ -31,10 +31,30 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="BestScore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BestScore.h" />
+		<Unit filename="ReadScore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ReadScore.h" />
 		<Unit filename="affich.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="affich.h" />
+		<Unit filename="cleanScore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cleanScore.h" />
+		<Unit filename="ghost.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ghost.h" />
+		<Unit filename="ia.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ia.h" />
 		<Unit filename="init.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -46,7 +66,28 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="menu.h" />
+		<Unit filename="motifs.h" />
+		<Unit filename="move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="move.h" />
+		<Unit filename="rendumap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rendumap.h" />
+		<Unit filename="score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="score.h" />
 		<Unit filename="structures.h" />
+		<Unit filename="subscribeScore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="subscribeScore.h" />
+		<Unit filename="triScore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="triScore.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
