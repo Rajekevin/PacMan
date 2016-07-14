@@ -19,11 +19,14 @@
 
 
 
-void affich(char map[20][38]){
+void affich(char map[20][38], int score, int bonus, int frame, int vies){
 
     int i, j;
 
     system("CLS");//efface lecran
+
+     //textcolor(WHITE);
+     printf("Deplacez vous a l'aide des touches z, q, s et d.\nTentez d'attraper les %c\nQuittez avec Echap\n", point);
 
     for(i=0; i<20; i++)
     {
@@ -56,7 +59,8 @@ void affich(char map[20][38]){
 
         }
 
-
+    if(i==10){printf("        score : %d", score);};
+    if(i==12){printf("        vies : %d", vies);};
 
 
         printf("\n");
@@ -64,7 +68,10 @@ void affich(char map[20][38]){
 
 
 
-
+  if(bonus)
+    {
+        printf("========== BONUS ACTIVE %d ==========", 50 - frame);
+    }
 
 
 Sleep(200);

@@ -11,6 +11,6 @@
 
 #include <stdio.h>
 
-void affich(char [20][38]);
+void affich(char [20][38],int, int, int, int);
 
 #endif /* affich_h */
