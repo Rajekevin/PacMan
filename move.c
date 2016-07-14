@@ -1,10 +1,12 @@
 #include "move.h"
+#include <windows.h>
+#include <stdio.h>
+#include <conio.h>
 
 #include "structures.h"
+#include "ia.h"
 #include "affich.h"
-#include "ghost.h"
-
-
+#include "motifs.h"
 
 
 void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordonees *fantomeB, coordonees *fantomeC, coordonees *fantomeD)
@@ -21,7 +23,7 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
 
         //Le PacMan se déplace à l'aide des touches z,q,s et d. Le jeu peut être quitté avec Esc
 
-        affichage(terrain, score, bonus, frame, vies);
+        //affichage(terrain, score, bonus, frame, vies);
 
         entree = getch(); //Cette commande permet au jeu de ne pas démarer tout de suite, mais d'attendre que le joueur soit pret
 
@@ -246,13 +248,13 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
             directionC = ia(*PacMan, *fantomeC, terrain, directionC);
             directionD = ia(*PacMan, *fantomeD, terrain, directionD);
 
-            pointA = deplacementFantome(directionA, fantomeA, pointA, terrain, &entree, bonus);
-            pointB = deplacementFantome(directionB, fantomeB, pointB, terrain, &entree, bonus);
-            pointC = deplacementFantome(directionC, fantomeC, pointC, terrain, &entree, bonus);
-            pointD = deplacementFantome(directionD, fantomeD, pointD, terrain, &entree, bonus);
+            pointA = ghost(directionA, fantomeA, pointA, terrain, &entree, bonus);
+            pointB = ghost(directionB, fantomeB, pointB, terrain, &entree, bonus);
+            pointC = ghost(directionC, fantomeC, pointC, terrain, &entree, bonus);
+            pointD = ghost(directionD, fantomeD, pointD, terrain, &entree, bonus);
 
             //On affiche la nouvelle frame ainsi générée
-            affichage(terrain, score, bonus, frame, vies);
+            //affichage(terrain, score, bonus, frame, vies);
 
             //compteur de frame
             if(bonus)
@@ -319,7 +321,7 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
 
     } while (c != ' '); //On valide par espace
 
-    fscore(score);
+    //fscore(score);
 
 
 
