@@ -42,7 +42,7 @@ system("CLS");
 int mode;
 
  //SetWindow(70,26); //On redimentionne la fenêtre (c'est le seul réglage faisabl
-SetWindow(70,26);
+
 printf("cc");
 
   do
@@ -66,7 +66,7 @@ printf("cc");
             init(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD);
             affich(mappage);
 
-            SetWindow(70,30); //On redimentionne la fenêtre (c'est le seul réglage faisable automatiquement)
+
             srand(time(NULL)); //On initialise les nombres aléatoires
 
             return 0;
