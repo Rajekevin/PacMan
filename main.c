@@ -20,6 +20,9 @@
 #include "affich.h"
 
 #include "setwindow.h"
+#include "ghost.h"
+#include "move.h"
+#include "rendumap.h"
 
 int main(int argc, const char * argv[])
 {
@@ -41,8 +44,7 @@ char saisie;
 system("CLS");
 int mode;
 
- //SetWindow(70,26); //On redimentionne la fenêtre (c'est le seul réglage faisabl
-
+ //SetWindow(70,26); //On redimentionne la fenêtre
 printf("cc");
 
   do
@@ -64,7 +66,10 @@ printf("cc");
             coordonees ghostD;
 
             init(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD);
+            rendumap(mappage);
             affich(mappage);
+            move(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD); //On lance la gestion des déplacements
+
 
 
             srand(time(NULL)); //On initialise les nombres aléatoires
