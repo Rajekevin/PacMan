@@ -25,7 +25,7 @@ void affich(char map[20][38], int score, int bonus, int frame, int vies){
 
     system("CLS");//efface lecran
 
-     //textcolor(WHITE);
+     textcolor(15);
      printf("Deplacez vous a l'aide des touches z, q, s et d.\nTentez d'attraper les %c\nQuittez avec Echap\n", point);
 
     for(i=0; i<20; i++)
@@ -35,23 +35,32 @@ void affich(char map[20][38], int score, int bonus, int frame, int vies){
 
             if(map[i][j] == 'C')
             {
+                textcolor(14);
 
             }
             else if(map[i][j] == 'M')
             {
+                textcolor(12);
+                 if(bonus && (frame<35 || frame%2))
+                {
+                    textcolor(10);
+                }
 
 
             }
             else if(map[i][j] == '.')
             {
+                textcolor(15);
 
             }
             else if(map[i][j] == point)
             {
+                textcolor(10);
 
             }
             else
             {
+                textcolor(9);
 
             }
 
@@ -59,6 +68,7 @@ void affich(char map[20][38], int score, int bonus, int frame, int vies){
 
         }
 
+    textcolor(14);
     if(i==10){printf("        score : %d", score);};
     if(i==12){printf("        vies : %d", vies);};
 
@@ -67,12 +77,12 @@ void affich(char map[20][38], int score, int bonus, int frame, int vies){
     }
 
 
-
+textcolor(10);
   if(bonus)
     {
         printf("========== BONUS ACTIVE %d ==========", 50 - frame);
     }
 
-
+ textcolor(15);
 Sleep(200);
 }
