@@ -1,6 +1,7 @@
 #include "ghost.h"
 #include "structures.h"
 
+
 char ghost(int direction, coordonees *fantome, char point, char terrain[20][38], char *entree, int bonus)
 {
 
