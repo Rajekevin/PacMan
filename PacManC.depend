@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1468493426 source:c:\users\rajek\documents\c program\pacmanc\main.c
+1468496426 source:c:\users\rajek\documents\c program\pacmanc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -11,6 +11,9 @@
 	"init.h"
 	"affich.h"
 	"setwindow.h"
+	"ghost.h"
+	"move.h"
+	"rendumap.h"
 
 1467199402 source:c:\users\rajek\documents\c program\pacmanc\menu.c
 	<stdio.h>
@@ -27,7 +30,7 @@
 	<stdio.h>
 	"structures.h"
 
-1468415709 c:\users\rajek\documents\c program\pacmanc\structures.h
+1468495155 c:\users\rajek\documents\c program\pacmanc\structures.h
 
 1468426205 source:c:\users\rajek\documents\c program\pacmanc\affich.c
 	<windows.h>
@@ -59,4 +62,34 @@
 	"motifs.h"
 
 1468493358 c:\users\rajek\documents\c program\pacmanc\rendumap.h
+
+1468495249 source:c:\users\rajek\documents\c program\pacmanc\ghost.c
+	"ghost.h"
+	"structures.h"
+
+1468495297 c:\users\rajek\documents\c program\pacmanc\ghost.h
+	"structures.h"
+
+1468494198 source:c:\users\rajek\documents\c program\pacmanc\ia.c
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"ia.h"
+	"structures.h"
+
+1468495378 c:\users\rajek\documents\c program\pacmanc\ia.h
+	"structures.h"
+
+1468495658 source:c:\users\rajek\documents\c program\pacmanc\move.c
+	"move.h"
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	"structures.h"
+	"ia.h"
+	"affich.h"
+	"motifs.h"
+
+1468495390 c:\users\rajek\documents\c program\pacmanc\move.h
+	"structures.h"
 

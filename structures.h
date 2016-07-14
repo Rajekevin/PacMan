@@ -6,8 +6,8 @@
 //  Copyright © 2016 Elyes. All rights reserved.
 //
 
-#ifndef structures_h
-#define structures_h
+#ifndef structures_h_INCLUDED
+#define structures_h_INCLUDED
 
 typedef struct coordonees coordonees;
 
@@ -17,4 +17,4 @@ struct coordonees
     int j;
 };
 
-#endif /* structures_h */
+#endif //structures_h_INCLUDED
