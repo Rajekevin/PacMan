@@ -1,8 +1,5 @@
-#ifndef MOTIFS_H
-#define MOTIFS_H
-
-
-
+#ifndef MOTIFS_H_INCLUDED
+#define MOTIFS_H_INCLUDED
 
 
 #define coin_hg (char)0xC9 //coin haut gauche
