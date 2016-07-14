@@ -24,6 +24,9 @@
 #include "move.h"
 #include "rendumap.h"
 
+#include "ReadScore.h"
+#include "triScore.h"
+
 int main(int argc, const char * argv[])
 {
 
@@ -44,6 +47,9 @@ char saisie;
 system("CLS");
 int mode;
 
+
+
+
  //SetWindow(70,26); //On redimentionne la fenêtre
 printf("cc");
 
@@ -59,6 +65,8 @@ printf("cc");
 
              char mappage[20][38];
 
+
+
             coordonees PacMan;
             coordonees ghostA;
             coordonees ghostB;
@@ -67,7 +75,7 @@ printf("cc");
 
             init(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD);
             rendumap(mappage);
-            affich(mappage);
+            affich(mappage,0, 0, 0, 3);
             move(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD); //On lance la gestion des déplacements
 
 
@@ -79,6 +87,16 @@ printf("cc");
             break;
 
         case 2:
+            system("CLS");
+
+              char pseudo[100][4];  //Les deux tableaux suivants servent à l'affichage des meilleurs scores
+            int score[100];
+            int maxi;
+
+
+
+           maxi = ReadScore(pseudo, score);
+            triScore(pseudo, score, maxi);
 
             printf("test\n\n");
             break;
