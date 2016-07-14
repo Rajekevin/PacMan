@@ -1,4 +1,3 @@
-#include "move.h"
 #include <windows.h>
 #include <stdio.h>
 #include <conio.h>
@@ -7,6 +6,10 @@
 #include "ia.h"
 #include "affich.h"
 #include "motifs.h"
+#include "move.h"
+#include "ghost.h"
+#include "score.h"
+
 
 
 void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordonees *fantomeB, coordonees *fantomeC, coordonees *fantomeD)
@@ -254,7 +257,9 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
             pointD = ghost(directionD, fantomeD, pointD, terrain, &entree, bonus);
 
             //On affiche la nouvelle frame ainsi générée
-            //affichage(terrain, score, bonus, frame, vies);
+
+
+            affich(terrain, score, bonus, frame, vies);
 
             //compteur de frame
             if(bonus)
@@ -321,7 +326,7 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
 
     } while (c != ' '); //On valide par espace
 
-    //fscore(score);
+    fscore(score);
 
 
 
