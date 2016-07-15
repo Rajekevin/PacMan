@@ -139,10 +139,7 @@ void rendumap(char terrain[20][38])
 
             }
 
-            /*Ces test servent à corriger un bug qui fait que quand on arrive
-              à la dernière case d'une ligne d'un tableau et que l'on veut
-              lire la case suivante (qui ne devrait pas exister en théorie)
-              le programme lit la première case de la ligne suivante*/
+
 
             if((j == 0 || j == 37) && (i != 0 && i != 19))
             {

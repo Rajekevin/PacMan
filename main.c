@@ -72,6 +72,7 @@ printf("cc");
             coordonees ghostB;
             coordonees ghostC;
             coordonees ghostD;
+            coordonees ghostE;
 
             init(mappage, &PacMan, &ghostA, &ghostB, &ghostC, &ghostD);
             rendumap(mappage);

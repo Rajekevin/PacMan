@@ -5,7 +5,7 @@
 char ghost(int direction, coordonees *fantome, char point, char terrain[20][38], char *entree, int bonus)
 {
 
-    //Cette fonction fonctionne exactement de la même manière que pour PacMan : voir deplacement.c
+    //Cette fonction fonctionne exactement de la même manière que pour PacMan : voir move.c
 
     switch(direction)
     {

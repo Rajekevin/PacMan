@@ -1,3 +1,11 @@
+//
+//  move.c
+//  pacmanc
+//
+//  Created by  RK on 15/07/2016.
+//  Copyright © 2016 RK. All rights reserved.
+
+
 #include <windows.h>
 #include <stdio.h>
 #include <conio.h>
@@ -28,7 +36,8 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
 
         //affichage(terrain, score, bonus, frame, vies);
 
-        entree = getch(); //Cette commande permet au jeu de ne pas démarer tout de suite, mais d'attendre que le joueur soit pret
+        entree = getch(); /*Cette commande permet au jeu de ne pas démarer tout de suite,
+        mais d'attendre que le joueur soit pret*/
 
         do
         {
@@ -88,7 +97,7 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
                     }
                     else if(terrain[PacMan->i + 1][PacMan->j] == 'M' && bonus) //Si c'est un fantôme et que le bonus est activé, PacMan mange le fantôme et gagne 10 points
                     {
-                        terrain[PacMan->i][PacMan->j] = ' '; //La réaparition de PacMan est gérée plus loin car il y a plusieurs fantômes et qu'il faut les gérer au cas par cas
+                        terrain[PacMan->i][PacMan->j] = ' ';
                         PacMan->i = PacMan->i + 1;
                         score += 10;
                     }

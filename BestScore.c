@@ -1,3 +1,10 @@
+//  BestScore.c
+//  pacmanc
+//
+//  Created by  RK last MAJ 15/07/2016.
+//  Copyright © 2016 RK. All rights reserved.
+
+
 #include "BestScore.h"
 
 #include <stdio.h>
