@@ -7,9 +7,7 @@
 
 
 #include "triScore.h"
-
 #include <string.h>
-
 #include "BestScore.h"
 #include "cleanScore.h"
 

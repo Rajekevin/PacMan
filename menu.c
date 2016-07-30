@@ -45,12 +45,12 @@ printf("\t\t\t\t    | OO| | OO|                                 ");
 printf("2.MEILLEURS SCORES\n");
   textcolor(13);
 printf("\t\t\t\t    |   | |   |                                 ");
- textcolor(15);
-printf("3.CHARGER UNE PARTIE\n");
+
+printf("\n");
  textcolor(13);
 printf("\t\t\t\t    '^^^' '^^^'                                 ");
  textcolor(15);
-printf("4.QUITTER \n");
+printf("3.QUITTER \n");
 textcolor(9);
 printf("\t\t\t\t ====================        =====================.\n");
 textcolor(14);

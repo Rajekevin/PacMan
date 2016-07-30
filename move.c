@@ -329,7 +329,7 @@ void move(char terrain[20][38], coordonees *PacMan, coordonees *fantomeA, coordo
         textcolor(12);
         printf("\n\n\n                              GAME OVER\n\n\n\n");
         textcolor(15);
-        printf("Pour sauvegarder et afficher votre score appuyer sur la touche espace");
+        printf("Pour sauvegarder et afficher votre score appuyer sur la touche espace puis sur entrée");
         c = getch();
         system("CLS");
 

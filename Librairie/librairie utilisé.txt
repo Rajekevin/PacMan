@@ -1,0 +1,2 @@
+Conio.h pour gérer la couleur
+header <windows.h> qui permet d'accéder aux fonctions de l'API Windows windows.h 

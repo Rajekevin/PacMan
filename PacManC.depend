@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1468573547 source:c:\users\rajek\documents\c program\pacmanc\main.c
+1469622949 source:c:\users\rajek\documents\c program\pacmanc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -17,7 +17,7 @@
 	"ReadScore.h"
 	"triScore.h"
 
-1467199402 source:c:\users\rajek\documents\c program\pacmanc\menu.c
+1469622898 source:c:\users\rajek\documents\c program\pacmanc\menu.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -34,7 +34,7 @@
 
 1468495155 c:\users\rajek\documents\c program\pacmanc\structures.h
 
-1468574790 source:c:\users\rajek\documents\c program\pacmanc\affich.c
+1469263857 source:c:\users\rajek\documents\c program\pacmanc\affich.c
 	<windows.h>
 	"affich.h"
 	"motifs.h"
@@ -59,13 +59,13 @@
 
 1468421039 c:\users\rajek\documents\c program\pacmanc\setwindow.h
 
-1468493315 source:c:\users\rajek\documents\c program\pacmanc\rendumap.c
+1468578298 source:c:\users\rajek\documents\c program\pacmanc\rendumap.c
 	"rendumap.h"
 	"motifs.h"
 
 1468493358 c:\users\rajek\documents\c program\pacmanc\rendumap.h
 
-1468495249 source:c:\users\rajek\documents\c program\pacmanc\ghost.c
+1468576161 source:c:\users\rajek\documents\c program\pacmanc\ghost.c
 	"ghost.h"
 	"structures.h"
 
@@ -82,7 +82,7 @@
 1468495378 c:\users\rajek\documents\c program\pacmanc\ia.h
 	"structures.h"
 
-1468507103 source:c:\users\rajek\documents\c program\pacmanc\move.c
+1469622371 source:c:\users\rajek\documents\c program\pacmanc\move.c
 	<windows.h>
 	<stdio.h>
 	<conio.h>
@@ -97,7 +97,7 @@
 1468495390 c:\users\rajek\documents\c program\pacmanc\move.h
 	"structures.h"
 
-1468502726 source:c:\users\rajek\documents\c program\pacmanc\bestscore.c
+1469622748 source:c:\users\rajek\documents\c program\pacmanc\bestscore.c
 	"BestScore.h"
 	<stdio.h>
 	<conio.h>
@@ -112,14 +112,14 @@
 
 1468503080 c:\users\rajek\documents\c program\pacmanc\readscore.h
 
-1468503559 source:c:\users\rajek\documents\c program\pacmanc\cleanscore.c
+1468578272 source:c:\users\rajek\documents\c program\pacmanc\cleanscore.c
 	"cleanScore.h"
 	<stdlib.h>
 	<stdio.h>
 
 1468503608 c:\users\rajek\documents\c program\pacmanc\cleanscore.h
 
-1468503634 source:c:\users\rajek\documents\c program\pacmanc\triscore.c
+1468578957 source:c:\users\rajek\documents\c program\pacmanc\triscore.c
 	"triScore.h"
 	<string.h>
 	"BestScore.h"
@@ -129,14 +129,14 @@
 
 1468506523 c:\users\rajek\documents\c program\pacmanc\score.h
 
-1468506603 source:c:\users\rajek\documents\c program\pacmanc\subscribescore.c
+1468578222 source:c:\users\rajek\documents\c program\pacmanc\subscribescore.c
 	"subscribeScore.h"
 	<stdio.h>
 	<stdlib.h>
 
 1468506655 c:\users\rajek\documents\c program\pacmanc\subscribescore.h
 
-1468508057 source:c:\users\rajek\documents\c program\pacmanc\score.c
+1468578241 source:c:\users\rajek\documents\c program\pacmanc\score.c
 	"score.h"
 	<string.h>
 	<stdio.h>

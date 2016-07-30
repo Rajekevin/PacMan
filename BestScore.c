@@ -24,7 +24,7 @@ void BestScore(char pseudo[100][4], int score[100], int maxi)
         i++;
     }
 
-    printf("\n");
+    printf("\nTapez n'importe quelle touche pour revenir sur le menu principal");
     getch();
 
 }

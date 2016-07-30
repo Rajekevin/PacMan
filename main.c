@@ -98,15 +98,13 @@ printf("cc");
 
            maxi = ReadScore(pseudo, score);
             triScore(pseudo, score, maxi);
-
-            printf("test\n\n");
             break;
 
         default:
             break;
 
         }
-    }while(mode>0 && mode<4);
+    }while(mode>0 && mode<3);
 
 
 

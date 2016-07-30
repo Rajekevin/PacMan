@@ -1,7 +1,7 @@
 //  affich.c
 //  pacmanc
 //
-//  Created by Elyes & RK on 21/06/2016.
+//  Worked by Elyes & RK on 21/06/2016.
 //  Copyright © 2016 Elyes. All rights reserved.
 //
 
